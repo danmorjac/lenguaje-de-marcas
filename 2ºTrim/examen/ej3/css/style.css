@@ -1,0 +1,85 @@
+/* colores */
+/* #999999; */
+/* #666666; */
+/* Para pantallas pequeñas */
+@media all and (max-width: 400px) {
+
+}
+
+body { 
+    background: #999999; 
+    color: #eee;
+  }
+
+h1 {
+    text-align: center;
+    background-color: #666666;
+    border: 5px black solid;
+}
+header{
+    border-style: solid;
+    border-color: black;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+    background-color: grey;
+}
+
+nav {
+    
+    top:0px;
+    width: 100%;
+
+    margin:0px;
+    text-align: right;
+    
+ 
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+ul {
+    padding-right: 10px;
+   
+
+}
+li {
+    font-size: larger;
+    display: inline;
+
+}
+li:hover{
+    text-decoration: 1px underline yellow dashed;
+    padding-left: 5px;
+}
+
+#imageLeft{
+    float: right;
+
+}
+img{
+    padding-bottom: 15px;
+
+}
+
+#container{
+    background-color: #2a2a2a;
+    border: 2px black solid;
+}
+
+
+#uno {
+    text-align: justify;
+    text-indent: 40px;
+    background-color:#666666;
+    border: white dashed 2px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    border-radius: 20px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+

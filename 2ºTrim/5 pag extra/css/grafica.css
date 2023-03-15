@@ -1,0 +1,141 @@
+* {
+    margin: 0px auto;
+}
+body{
+    background: url(../images/fondo.jpg);
+    font-family: roboto,-apple-system,".sfnstext-regular",san francisco,segoe ui,helvetica neue,helvetica,arial,lucida grande,sans-serif;
+    font-size: 1.5rem;
+    margin: 0;
+    margin-bottom: 10px;
+}
+header{
+    border-style: solid;
+    border-radius: 10px;
+    background-color: gainsboro;
+    text-align: left;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+    font-size: xx-large;
+    padding: 50px;
+   
+}
+menu {  
+    position:relative; 
+    top: 0px;
+    width: 100%;
+    
+    margin: 0px;
+    text-align: center;
+    background-color: rgb(4, 161, 4);
+    border: 1px solid rgba(255, 0, 0, 0.616);
+    border-top: 2px solid rgba(255, 0, 0, 0.616);
+    border-bottom: 2px solid rgba(255, 0, 0, 0.616);
+    font-size: 1em;
+  }
+  
+  menu a{
+    color: white;
+    text-decoration: none;
+  }
+  
+  menu li{
+  display: inline;
+    padding: 15px;  
+  }
+  
+  menu li a:hover{
+    border-bottom: 2px solid white;
+    
+  }
+
+figure{
+    position: relative;
+    width: 50%;
+    
+}
+img{
+    
+    
+}
+#logo{
+    padding-right: 10%;
+    width: 5%;
+    float:left
+}
+#images {
+    border: 5px;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    text-align: center;
+    width: 100%;
+}
+#noticias{
+    position: relative;
+    float:right
+}
+#two{
+    width: 10px;
+    padding-top: 10%;
+    padding: 15px;
+    width: 50%;
+    border-style: solid;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom-color: purple;
+}
+
+figcaption {
+    text-align: center;
+    position: absolute; left: 0; bottom: 0;
+    color: white;
+    padding: 30px;
+    
+}
+div{
+    padding-top: 5%;
+}
+div p{
+    padding: 10px;
+    width: 50%;
+}
+#rightNav{
+    float: right;
+}
+#rightNav img{
+    width: 8%;
+    margin: 0px;
+  }
+
+  
+  #rightNav img:hover{
+    color: #AEC0B1;
+    list-style:none; 
+    border-bottom: solid 5px #FF9900;
+    margin-bottom: 0px;
+  }
+  html {
+    min-height: 100%;
+    position: relative;
+  }
+  footer {
+    margin-left: 0px;
+    padding-top: 10%;
+    bottom: 0;
+    width: 100%;
+    color: white;
+  }
+  #copyright{
+    background-color: #0d47a1;
+  }
+  #container-fluid{
+    background-color: rgb(4, 161, 4);
+    border: 1px solid rgba(255, 0, 0, 0.616);
+    border-top: 2px solid rgba(255, 0, 0, 0.616);
+    border-bottom: 2px solid rgba(255, 0, 0, 0.616);
+    color: white;
+    padding: 15px;
+  }
+

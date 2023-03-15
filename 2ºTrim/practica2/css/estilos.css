@@ -1,0 +1,113 @@
+* {}
+
+body {
+    background-color: azure;
+    margin: 0px;
+}
+
+h1 {
+    
+    margin: 0px;
+    text-align: center;
+    background-color: lightblue;
+    border-bottom: solid black
+}
+
+img {
+    border-radius: 3px;
+    border-style: solid;
+
+}
+
+ul {
+    text-align: center;
+    
+}
+
+li {
+    display: inline;
+    border-left-style: solid;
+    border-color: red;
+    
+}
+
+p {}
+
+
+#header {}
+
+#content {
+    margin: 40px;
+}
+
+#text {
+    text-align: justify;
+
+}
+
+#text p {
+    background-color: rgb(218, 137, 235);
+    text-indent: 50px;
+    border: dashed;
+    margin: 5px;
+    box-shadow: 5px 5px 5px 5px grey;
+}
+
+#text p:first-child {
+    border-radius: 15px 15px 0px 0px;
+    background-image: url("/2ºTrim/practica2/images/fondoParrafo.png")
+}
+
+#text p:last-child {
+    border-radius: 0px 0px 15px 15px;
+    
+
+}
+
+#menu {
+
+
+}
+
+#menu a {
+
+}
+
+
+#menu li {
+   
+}
+
+#menu li a:hover {
+
+}
+
+#footer {
+    border-color: blue;
+    border-top-style: solid;
+    background-color: plum;
+    text-align: center;
+    margin-bottom: 5%;
+
+}
+
+#footer a {
+
+}
+
+#footer a:hover {
+
+}
+
+#image {
+    text-align: right;
+
+}
+
+@media all and (max-width: 500px) {
+
+    img {
+        border: 10px solid red;
+    }
+
+}

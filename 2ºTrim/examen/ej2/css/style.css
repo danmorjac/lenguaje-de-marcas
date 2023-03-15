@@ -1,0 +1,63 @@
+/* colores */
+/* #999999; */
+/* #666666; */
+body { 
+    background: #999999; 
+    color: #eee;
+  }
+
+h1 {
+    text-align: center;
+    background-color: #666666;
+    border: 5px black solid;
+}
+
+#container{
+    background-color: red;
+    margin: auto;
+    width: 99%;
+}
+
+
+#uno {
+    text-align: justify;
+    text-indent: 40px;
+    background-color:#666666;
+    border: white dashed 2px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    border-radius: 20px;
+    padding: 20px;
+}
+header {
+    text-align: center;
+    background-color: #999999;
+    border-style: solid;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-color: black;
+
+}
+footer {
+
+    background-color: blue;
+}
+#imgInstagram{
+
+border-style: dashed;
+border-radius: 0px;
+
+}
+#imgTwitter{
+    float: right;
+
+}
+
+#imagen{
+   
+    position: fixed;
+    left: 50%;
+    top: 50%; 
+
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" >
+		<title>Examen Ej1</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	<body>
+		<header>
+            <h1>Título de mi superweb</h1>             
+            <h2>Una web de ejemplo para los ejercicios</h2>
+        </header>
+        <!--Seccion principal-->
+        <section>
+            <form class="formulario" action="#" method="post">
+              <ul>
+                 <li>
+                      <h2>Contáctanos</h2>
+                 </li>
+                 <li>
+                     <label for="name">Nombre:</label>
+                     <input type="text" name="name" placeholder="Tu nombre" required autofocus />
+                 </li>
+                  <li>
+                     <label for="telef">Telefono:</label>
+                     <input type="number"  name="telef" placeholder="961111111" pattern="\d{9}$" required/>
+                 </li>
+                 <li>
+                     <label for="email">Email:</label>
+                     <input type="email" name="email" placeholder="nombre@ejemplo.com" required />
+                 </li>
+                 <div id="centrar">
+                 <li>
+                    <button class="submit" type="submit">Enviar</button>
+                </li>
+                </div>
+             </ul>
+
+          </form>
+        </section>  
+      
+	</body>
+</html>

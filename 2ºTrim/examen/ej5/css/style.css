@@ -1,0 +1,77 @@
+/* sin resolver */
+body { 
+  background: #1e1e1e; 
+  color:#eee;                                                                           
+}
+
+
+header {
+    border: 5px #336699 solid;
+    text-align: center;
+    background-color: #666666;
+    color: white;
+}
+
+section {
+  background-color: #666665;
+  padding-left: 25%;
+  padding-right: 25%;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+
+.formulario ul {
+    list-style-type:none;
+    width: 750px;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.formulario label {
+  float: left;
+  font-weight: bold;
+	padding:6px 8px;
+  height:20px; 
+	width:150px;
+  color: white ;
+  background-color: #999998;  
+  border-bottom: 1px solid black;
+}
+
+.formulario input {
+	height:20px; 
+	width:240px; 
+	padding:5px 8px;
+    
+}
+
+.formulario input {
+  background-color: white;
+  color: #336699;
+  border-bottom: 5px red solid;
+  
+}
+
+button.submit {
+  padding: 9px 17px;
+  color: #444;     
+  background-color: white;
+  border: 2px solid yellow;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+button.submit:hover {
+	cursor: pointer; 
+	color: black;
+  background-color: #f00;
+
+}
+
+#centrar{
+    margin-left: 220px;
+    margin-top: 10px;
+}

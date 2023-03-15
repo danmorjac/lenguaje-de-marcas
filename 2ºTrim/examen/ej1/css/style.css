@@ -1,0 +1,64 @@
+/* colores */
+/* #999999; */
+/* #666666; */
+body {
+  
+    display: inline-block; 
+    background-color:rgb(61, 60, 60) ; 
+    color: #eee;
+    
+  }
+
+h1 {
+    text-align: center;
+    background-color: #666666;
+    border: 5px black solid;
+}
+
+#container{
+
+  background-color: aqua;
+  overflow: auto;
+  display:inline-block
+
+}
+
+
+#uno {
+  
+  background-color: #666666;
+  border-style: dashed;
+  border-radius: 10px;
+  float: left;
+
+  width: 800px;
+  
+  
+
+}
+
+#dos {
+  background-color: black;
+  border-style: dashed;
+  border-radius: 5px;
+
+
+}
+
+#tres {
+  float: left;
+  background-color: #666666;
+  border-style: dashed;
+  border-radius: 5px;
+
+  
+
+}
+header {
+
+text-align: center;
+color: white;
+background-color: #999999;
+font-size: larger;
+
+}
