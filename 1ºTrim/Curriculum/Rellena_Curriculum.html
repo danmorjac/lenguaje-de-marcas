@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://ncoge.com/phps/formulario.php">
+
+<html xmlns="http://ncoge.com/phps/formulario.php" lang="es" xml:lang="es">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Rellena tu CV</title>
+</head>
+
+<body>
+    <a href="../">Home</a>
+    <h3>Rellena tu CV</h3>
+    <form action="http://ncoge.com/phps/formulario.php" method="post">
+        <table>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend>Datos personales</legend>
+                        Nombre
+                        <input type="text" name="nombre" value="" />
+                        <br />
+                        <br />
+                        Apellidos
+                        <input type="text" name="apellidos" value="" />
+                        <br />
+                        <br />
+                        Correo
+                        <input type="text" name="correo" value="" />
+                        <br />
+                        <br />
+                        Hobbies
+                        <label for="hobbies"></label>
+                        <textarea id="hobbies" name="hobbies" cols="40" rows="5"></textarea>
+                    </fieldset>
+                    <br />
+                </td>
+                <td>
+                    <fieldset>
+                        <Legend>Idioma</Legend>
+                        <br />
+                        Puntua tu nivel de idiomas de 1 a 5:
+                        <br />
+                        <br />
+                        Ingles:
+                        1
+                        <input type="radio" name="Ingles" value="ninguno" checked="checked" />
+                        2
+                        <input type="radio" name="Ingles" value="ninguno" checked="checked" />
+                        3
+                        <input type="radio" name="Ingles" value="ninguno" checked="checked" />
+                        4
+                        <input type="radio" name="Ingles" value="ninguno" checked="checked" />
+                        5
+                        <input type="radio" name="Ingles" value="ninguno" checked="checked" />
+                        <br />
+                        <br />
+                        Frances:
+                        1
+                        <input type="radio" name="Frances" value="ninguno" checked="checked" />
+                        2
+                        <input type="radio" name="Frances" value="ninguno" checked="checked" />
+                        3
+                        <input type="radio" name="Frances" value="ninguno" checked="checked" />
+                        4
+                        <input type="radio" name="Frances" value="ninguno" checked="checked" />
+                        5
+                        <input type="radio" name="Frances" value="ninguno" checked="checked" />
+                        <br />
+                        <br />
+                        Aleman:
+                        1
+                        <input type="radio" name="Aleman" value="ninguno" checked="checked" />
+                        2
+                        <input type="radio" name="Aleman" value="ninguno" checked="checked" />
+                        3
+                        <input type="radio" name="Aleman" value="ninguno" checked="checked" />
+                        4
+                        <input type="radio" name="Aleman" value="ninguno" checked="checked" />
+                        5
+                        <input type="radio" name="Aleman" value="ninguno" checked="checked" />
+                    </fieldset>
+                    <fieldset>
+                        <legend>Domino los siguientes programas</legend>
+                        Writer:<input name="puesto_directivo" type="checkbox" value="direccion" />
+                        Base:<input name="puesto_tecnico" type="checkbox" value="tecnico" />
+                        <br />
+                        Calc:<input name="puesto_empleado" type="checkbox" value="empleado" />
+                        Impress:<input name="puesto_empleado" type="checkbox" value="empleado" />
+                    </fieldset>
+                    <fieldset>
+                        <legend>Trabajo con el siguiente Sistema Operativo:</legend>
+                        <label for="so">Sistema operativo</label> <br />
+                        <select id="so" name="so">
+                            <option value="" selected="selected">- selecciona -</option>
+                            <option value="windows">Windows</option>
+                            <option value="mac">Mac</option>
+                            <option value="linux">Linux</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </fieldset>
+                    <input type="reset" name="limpiar" value="Reiniciar" />
+
+                    <input type="image" name="enviar" src="./images/go.png" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
