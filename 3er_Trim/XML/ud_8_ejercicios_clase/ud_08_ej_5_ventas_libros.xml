@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE informe-ventas SYSTEM "ud_08_ej_5_ventas_libros.dtd">
+<informe-ventas fecha="30/12/2009">
+    <region id="norte">
+        <trimestre id="1">
+            <libros-vendidos>24000</libros-vendidos>
+        </trimestre>
+        <trimestre id="2">
+            <libros-vendidos>38600</libros-vendidos>
+        </trimestre>
+        <trimestre id="3">
+            <libros-vendidos>NO_INFO</libros-vendidos>
+        </trimestre>
+        <trimestre id="4">
+            <libros-vendidos>NO_INFO</libros-vendidos>
+        </trimestre>
+    </region>
+    <region id="centro">
+        <trimestre id="1">
+            <libros-vendidos>NO_INFO</libros-vendidos>
+        </trimestre>
+        <trimestre id="2">
+            <libros-vendidos>16080</libros-vendidos>
+        </trimestre>
+        <trimestre id="3">
+            <libros-vendidos>25000</libros-vendidos>
+        </trimestre>
+        <trimestre id="4">
+            <libros-vendidos>29000</libros-vendidos>
+        </trimestre>
+    </region>
+    <region id="sur">
+        <trimestre id="1">
+            <libros-vendidos>27000</libros-vendidos>
+        </trimestre>
+        <trimestre id="2">
+            <libros-vendidos>31400</libros-vendidos>
+        </trimestre>
+        <trimestre id="3">
+            <libros-vendidos>40100</libros-vendidos>
+        </trimestre>
+        <trimestre id="4">
+            <libros-vendidos>30000</libros-vendidos>
+        </trimestre>
+    </region>
+</informe-ventas>
